@@ -3,8 +3,8 @@ import os
 FILE_NAME = "students.txt"
 
 def add_student():
-    name = input("Enter student name: ")
-    roll = input("Enter roll number: ")
+    name = input("Enter studygugent name: ")
+    roll = input("Enter roll gjh number: ")
     marks = input("Enter marks: ")
 
     with open(FILE_NAME, "a") as file:
